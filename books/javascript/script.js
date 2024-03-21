@@ -1,0 +1,1 @@
+document.getElementById('book').innerHTML='bangla-book';

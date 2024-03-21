@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Three</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="http://www.dkbshop.com/">
+<script>
+     tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+</script>
+<style>
+  .font-manrope{
+    font-family:'Manrope',sans-serif ;
+  }
+  .text-custom{
+    color: #ff4240;
+  }
+  .bg custom {
+    background-color: #ff4240;color: white;
+  }
+
+</style>
+</head>
+
+<body>
+  <header>
+        
+      <div class="flex flex-row m-10 ">
+          <h1 class="basis-2/12 banner-title text-4xl self-center">Hockey<span class="text-red-600">'</span>s</h1>
+          
+          <ul class="basis-5/12 menu text-base menu-horizontal px-4 ">
+
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+          </ul>
+          <div class="basis-5/12 text-center self-center">
+            <img src="/Images/search b.png">
+          </div>
+          <div class="basis-2/12">
+              <button class="btn bg-red-700 text-right text-white self-center">Get Ticket</button>
+          </div>
+      </div>
+
+           <div class="m-10">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div class="m-10">
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="images/2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="images/3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+              </div>
+
+              <div id="slide4" class="carousel-item relative w-full">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+              </div>
+
+     
+
+            </div> 
+            <div class="bg-[#131318] p-6 lg:rounded-lg lg:w-3/5 lg:absolute bottom-5 right-5">
+              <h2 class="lg:text-2xl text-xl text-white mb-2">Meet all the heroes from the field</h2>
+              
+              <p class="lg:text-sm text-[#ddd]">Dit amet consectetur. Condimentum dignissim adipisci aliquam
+                  turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          </div>
+          
+
+          <div id="slide4" class="carousel-item relative w-full">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left- right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+</body>
+</html>

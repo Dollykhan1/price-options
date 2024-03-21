@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of Dom</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+        li{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Welcome to my Dom</h1>
+   </header>
+   <main>
+    <section>
+        <h1>This is my Awesome Domside</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consequatur ab sequi unde quidem, veniam, impedit rerum tenetur assumenda delectus nostrum amet consequuntur voluptatum qui? Dicta illo aspernatur libero earum.</p>
+    <ui>
+        <li>dolly work</li>
+        <li>hard time</li>
+        <li>good work</li>
+        <li>I am working hard to build my website </li>
+    </ui>
+    </section>
+    <section>
+        <h1>I like Frutis</h1>
+        <ui>
+            <li>apple</li>
+            <li>banana</li>
+            <li>blackbarry</li>
+            <li>stwbarry</li>
+        </ui>
+    </section>
+   </main>
+   <script src="js/dom.js"></script>
+   <script>
+const liCollection = document.getElementsByTagName('li');
+   //console.log(liCollection);
+   for(const li of liCollection){
+    //console.log(li.innerTexts);
+   }
+   const allHeadings = documentsByTagName('h1');
+   for(const h1 of allHeadings){
+    console.log(h1.innerText);
+   }
+</script>
+</body>
+</html>

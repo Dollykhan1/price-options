@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 3px solid sandybrown;
+            overflow: scroll;
+            /*overflow-y:scroll;*/
+            overflow: auto;
+
+        }
+        #box-1{
+           Overflow: scroll;
+           /*overflow: hidden;
+           overflow:auto*/
+        }
+        .elipsis{
+            width: 300px;
+            border:2px solid steelblue;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /*text-overflow: clip;*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p title="asdfasfd" class="elipsis">i am a serious student.I am learning 14 hours a day butsi am very slow so i don't finished my modules.</p>
+    </heaerd>
+    <section>
+        <div id="box-1" class="box">
+            <h3>My Text Box 1</h3>
+            <p>Loram has built a decades-long partnership 
+                with the rail industry offering the most
+                 innovative portfolio of equipment crewed
+                  by our expertly-trained operators and 
+                  technicians. Our contracted services
+                   capabilities assure our customers of 
+                   superior maintenance, unsurpassed
+                    productivity and maximum rail 
+                    availability.>Loram has built a decades-long partnership 
+                    with the rail industry offering the most
+                     innovative portfolio of equipment crewed
+                      by our expertly-trained operators and 
+                      technicians. Our contracted services
+                       capabilities assure our customers of 
+                       superior maintenance, unsurpassed
+                        productivity and maximum rail 
+                        availability.</p>
+        </div>
+        <div class="box">
+            <h3>My Text Box2</h3>
+            <p> >Loram has built a decades-long partnership 
+                with the rail industry offering the most
+                 innovative portfolio of equipment crewed
+                  by our expertly-trained operators and 
+                  technicians. Our contracted services
+                   capabilities assure our customers of 
+                   superior maintenance, unsurpassed
+                    productivity and maximum rail 
+                    availability.
+            </p>
+        </div>
+        <div class="box">
+            <h3>My Text Box 3</h3>
+            <p> >Loram has built a decades-long partnership 
+                with the rail industry offering the most
+                 innovative portfolio of equipment crewed
+                  by our expertly-trained operators and 
+                  technicians. Our contracted services
+                   capabilities assure our customers of 
+                   superior maintenance, unsurpassed
+                    productivity and maximum rail 
+                    availability?
+            </p>   
+            
+        </div>
+    </section>
+</body>
+</html>
